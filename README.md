@@ -7,8 +7,8 @@
 - [LoginDesigner](https://github.com/jrotty/LoginDesigner)
 - [Snow-Typecho-Plugin](https://github.com/journey-ad/Snow-Typecho-Plugin)
 
-个人版（不推荐）：
-教育版 安装：
+### 个人版（不推荐）：
+### 教育版 安装：
 <a href="https://repl.it/github/super-yan86/Typecho_Replit_pgsql">
   <img alt="Run on Repl.it" src="https://repl.it/badge/github/super-yan86/Typecho_Replit_pgsql" style="height: 40px; width: 190px;" />
 </a></br>
