@@ -53,5 +53,5 @@ GRANT ALL PRIVILEGES ON DATABASE typecho to admin;
 
 你不用担心数据库密码安全问题，填好各项参数后点击 确认，开始安装 » 设置自己的typecho用户名密码！这个请设置自己的别用弱密码！
 
-sqlite数据库版 + Butterfly主题移植：[https://github.com/super-yan86/Typecho_Replit](https://github.com/super-yan86/Typecho_Replit)
+sqlite数据库版 + Butterfly主题移植：[https://github.com/super-yan86/Typecho_Replit](https://github.com/super-yan86/Typecho_Replit)</br>
 修改自：[https://github.com/valetzx/typechonreplitwithpg](https://github.com/valetzx/typechonreplitwithpg)
