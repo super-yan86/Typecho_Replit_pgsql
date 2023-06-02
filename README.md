@@ -35,11 +35,12 @@ create user admin with password 'admin';
 ALTER DATABASE typecho OWNER TO admin;
 GRANT ALL PRIVILEGES ON DATABASE typecho to admin;
 ```
-
+-----------------------------------------------------------------------------------------------------------------
 在新窗口打开你的typecho安装界面
 如果新窗口打不开，在小窗口安装
 安装好等待片刻就可以在新窗口打开了
 
+-----------------------------------------------------------------------------------------------------------------
 选择pgsql原生函数适配器
 
 | 参数 | 值 |
@@ -54,5 +55,4 @@ GRANT ALL PRIVILEGES ON DATABASE typecho to admin;
 你不用担心数据库密码安全问题，填好各项参数后点击 确认，开始安装 » 设置自己的typecho用户名密码！这个请设置自己的别用弱密码！
 
 sqlite数据库版 + Butterfly主题移植：[https://github.com/super-yan86/Typecho_Replit](https://github.com/super-yan86/Typecho_Replit)
-
-修改自[valetzx/typechonreplitwithpg](https://github.com/valetzx/typechonreplitwithpg)
+修改自：[https://github.com/valetzx/typechonreplitwithpg](https://github.com/valetzx/typechonreplitwithpg)
