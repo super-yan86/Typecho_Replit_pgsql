@@ -17,9 +17,9 @@
 ```git
 git clone https://github.com/Sayafx/Typecho-replit-Pgsql && mv -b Typecho-replit-Pgsql/* ./ && mv -b Typecho-replit-Pgsql/.[^.]* ./ && rm -rf *~ && rm -rf Typecho-replit-Pgsql`
 ```
-
 当加载完 Loading Nix environment... 后点击绿色 ▶ Run
 
+-----------------------------------------------------------------------------------------------------------------
 当clone中出现以下文字时，按说明操作
     初始化完毕
     将文件run.sh第一行的1删去之后再次单击绿色 ▶ Run按钮
@@ -40,7 +40,6 @@ GRANT ALL PRIVILEGES ON DATABASE typecho to admin;
 如果新窗口打不开，在小窗口安装
 安装好等待片刻就可以在新窗口打开了
 
------------------------------------------------------------------------------------------------------------------
 选择pgsql原生函数适配器
 
 | 参数 | 值 |
