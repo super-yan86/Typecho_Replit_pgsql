@@ -15,7 +15,7 @@
 将以下代码粘贴至Replit Shell后回车
 
 ```git
-git clone https://github.com/super-yan86/Typecho_Replit_pgsql && mv -b Typecho_Replit_pgsql/* ./ && mv -b Typecho_Replit_pgsql/.[^.]* ./ && rm -rf *~ && rm -rf Typecho_Replit_pgsql
+git clone https://github.com/super-yan86/Typecho_Replit_pgsql.git && mv -b Typecho_Replit_pgsql/* ./ && mv -b Typecho_Replit_pgsql/.[^.]* ./ && rm -rf *~ && rm -rf Typecho_Replit_pgsql
 ```
 当加载完 Loading Nix environment... 后点击绿色 ▶ Run
 
