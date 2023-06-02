@@ -1,33 +1,31 @@
-# Typecho-replit-Pgsql
+# Typecho_Replit_pgsql
 
-在Replit部署typecho并使用postgresql数据库
-
-# 修改内容
+## 修改内容
 
 更改一条代码，避免出现数据库已存在而无法给予权限的问题
-增加
+增加登录美化和下雪插件
+- [LoginDesigner](https://github.com/jrotty/LoginDesigner)
+- [Snow-Typecho-Plugin](https://github.com/journey-ad/Snow-Typecho-Plugin)
 
-
-[LoginDesigner插件](https://github.com/jrotty/LoginDesigner)
-
-
-[Snow-Typecho-Plugin插件](https://github.com/journey-ad/Snow-Typecho-Plugin)
-
-
-教育版：
-
+个人版（不推荐）：
+教育版 安装：
+<a href="https://repl.it/github/super-yan86/Typecho_Replit_pgsql">
+  <img alt="Run on Repl.it" src="https://repl.it/badge/github/super-yan86/Typecho_Replit_pgsql" style="height: 40px; width: 190px;" />
+</a></br>
 将以下代码粘贴至Replit Shell后回车
 
-`git clone https://github.com/Sayafx/Typecho-replit-Pgsql && mv -b Typecho-replit-Pgsql/* ./ && mv -b Typecho-replit-Pgsql/.[^.]* ./ && rm -rf *~ && rm -rf Typecho-replit-Pgsql`
+```git
+git clone https://github.com/Sayafx/Typecho-replit-Pgsql && mv -b Typecho-replit-Pgsql/* ./ && mv -b Typecho-replit-Pgsql/.[^.]* ./ && rm -rf *~ && rm -rf Typecho-replit-Pgsql`
+```
 
 当加载完 Loading Nix environment... 后点击绿色 ▶ Run
-
 
 当clone中出现以下文字时，按说明操作
     初始化完毕
     将文件run.sh第一行的1删去之后再次单击绿色 ▶ Run按钮
     等待小窗口出现后，开始在shell中手动配置数据库
-
+    
+-----------------------------------------------------------------------------------------------------------------
 
 在运行完成出现typecho后 点击Shell 在终端中逐行输入以下内容：
 ```
@@ -42,7 +40,7 @@ GRANT ALL PRIVILEGES ON DATABASE typecho to admin;
 如果新窗口打不开，在小窗口安装
 安装好等待片刻就可以在新窗口打开了
 
-选择Pgsql原生函数适配器
+选择pgsql原生函数适配器
 
 | 参数 | 值 |
 | ---- | ---- |
@@ -55,6 +53,6 @@ GRANT ALL PRIVILEGES ON DATABASE typecho to admin;
 
 你不用担心数据库密码安全问题，填好各项参数后点击 确认，开始安装 » 设置自己的typecho用户名密码！这个请设置自己的别用弱密码！
 
-sqlite数据库版 + Butterfly主题移植：https://github.com/Sayafx/Typecho-replit
+sqlite数据库版 + Butterfly主题移植：[https://github.com/super-yan86/Typecho_Replit](https://github.com/super-yan86/Typecho_Replit)
 
 修改自[valetzx/typechonreplitwithpg](https://github.com/valetzx/typechonreplitwithpg)
